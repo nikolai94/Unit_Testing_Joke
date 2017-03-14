@@ -85,7 +85,7 @@ public class JokeFetcherTest {
         assertThat(fetcher, contains(chuckNorris, eduJoke, moma, tambal));
     }
 
-
+    @Test
     public void testGetAvailableTypes() {
     List<String> availableTypes = jokeFetcher.getAvailableTypes();
         assertThat(availableTypes, hasSize(4));
